@@ -31,7 +31,6 @@ import pandas as pd
 import numpy as np
 from bs4 import BeautifulSoup
 import requests
-import xml.etree.ElementTree as ET
 
 # Define global variables
 global URL, HEADERS
@@ -44,4 +43,4 @@ JOBS = []
 ## Output
 
 The script extracts job data and outputs it as a structured dataset (DataFrame or list of dictionaries), making it easy to analyze or export for further processing.
-"# fake_jobs_webscrap" 
+"# fake_jobs_webscrap"
